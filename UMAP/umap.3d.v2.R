@@ -79,4 +79,4 @@ legend3d("topleft", c("Ki67", "CD69", "CD62L", celltype), col = c("gray0", "gray
 
 ## Save plot
 name<-paste(Sys.Date(),"_3d.umap+var.vec.html", sep = "")
-writeWebGL(dir=getwd(),filename=name)
+htmlwidgets::saveWidget(rglwidget(), name)
