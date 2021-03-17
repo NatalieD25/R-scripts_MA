@@ -1,0 +1,34 @@
+Call:
+   manova(cbind(V1, V2, V3) ~ treatment, data = c.in)
+
+Terms:
+                treatment Residuals
+V1                 548.34 155334.60
+V2               41835.61 161865.45
+V3                6925.11  28701.30
+Deg. of Freedom         1      6670
+
+Residual standard errors: 4.825821 4.926224 2.074378
+Estimated effects may be unbalanced
+            Df  Pillai approx F num Df den Df    Pr(>F)    
+treatment    1 0.36655   1286.1      3   6668 < 2.2e-16 ***
+Residuals 6670                                             
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Call:
+   manova(cbind(V1, V2, V3) ~ treatment, data = c.rb)
+
+Terms:
+                treatment Residuals
+V1                1052.19   5079.96
+V2                   0.10  32363.24
+V3                1853.54  31228.41
+Deg. of Freedom         1      1485
+
+Residual standard errors: 1.849553 4.668343 4.585764
+Estimated effects may be unbalanced
+            Df  Pillai approx F num Df den Df    Pr(>F)    
+treatment    1 0.25464   168.88      3   1483 < 2.2e-16 ***
+Residuals 1485                                             
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

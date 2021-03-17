@@ -1,0 +1,34 @@
+Call: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+
+                Inertia Proportion Rank
+Total         8.648e+04  1.000e+00     
+Conditional   1.092e+04  1.263e-01    5
+Constrained   6.780e+03  7.840e-02    4
+Unconstrained 6.877e+04  7.953e-01    4
+Inertia is variance 
+
+Eigenvalues for constrained axes:
+RDA1 RDA2 RDA3 RDA4 
+5144  795  482  359 
+
+Eigenvalues for unconstrained axes:
+  PC1   PC2   PC3   PC4 
+37187 20932  7414  3238 
+
+
+Call:
+prc(response = data1[, 5:8], treatment = treatment, time = week,      correlation = T) 
+Species scores:
+  KLRG1    CD25    CCR8    Ki67 
+-44.867   9.176  -1.582 -49.297 
+
+Coefficients for treatment + week:treatment interaction
+which are contrasts to treatment 0 
+rows are treatment, columns are week
+         5         6        7         8       9       11
+1 -0.04070 -0.015525  0.15499  0.006551 0.14231  0.11020
+2  0.07234 -0.001383 -0.04662  0.031881 0.08953 -0.05622
+3  0.04051  0.006190  0.18924  0.053839 0.38517  0.19065
+4 -0.03421 -0.212997 -0.05853 -0.308763 0.26075  0.04384
+null device 
+          1 

@@ -1,0 +1,520 @@
+[1] "Permutation 1"
+Call: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+
+                Inertia Proportion Rank
+Total         9.913e+04  1.000e+00     
+Conditional   2.492e+04  2.514e-01    5
+Constrained   8.677e+03  8.754e-02    4
+Unconstrained 6.553e+04  6.610e-01    4
+Inertia is variance 
+
+Eigenvalues for constrained axes:
+RDA1 RDA2 RDA3 RDA4 
+6555 1152  546  424 
+
+Eigenvalues for unconstrained axes:
+  PC1   PC2   PC3   PC4 
+32359 20774  8503  3890 
+
+
+Call:
+prc(response = data1[, 5:8], treatment = treatment, time = week,      correlation = T) 
+Species scores:
+  KLRG1    CD25    CCR8    Ki67 
+-53.663   4.186 -10.512 -70.754 
+
+Coefficients for treatment + week:treatment interaction
+which are contrasts to treatment 0 
+rows are treatment, columns are week
+         5         6         7         8      9       11
+1 -0.13748 -0.016902  0.130029 -0.003489 0.2242  0.06153
+2  0.04107 -0.006273 -0.142672  0.006585 0.1468 -0.08364
+3  0.02132  0.001776  0.183333  0.032214 0.3127  0.09211
+4 -0.21709 -0.407455 -0.001534 -0.340203 0.3192 -0.01453
+Permutation test for rda under reduced model
+Plots: ID, plot permutation: free
+Permutation: series
+Number of permutations: 99
+
+Model: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+           Df Variance      F Pr(>F)   
+RDA1        1     6555 977.23   0.01 **
+Residual 9768    65525                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+       Df          Variance           F             Pr(>F)    
+ Min.   :   1   Min.   : 6555   Min.   :977.2   Min.   :0.01  
+ 1st Qu.:2443   1st Qu.:21298   1st Qu.:977.2   1st Qu.:0.01  
+ Median :4884   Median :36040   Median :977.2   Median :0.01  
+ Mean   :4884   Mean   :36040   Mean   :977.2   Mean   :0.01  
+ 3rd Qu.:7326   3rd Qu.:50783   3rd Qu.:977.2   3rd Qu.:0.01  
+ Max.   :9768   Max.   :65525   Max.   :977.2   Max.   :0.01  
+                                NA's   :1       NA's   :1     
+[1] "Permutation 2"
+Call: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+
+                Inertia Proportion Rank
+Total         9.913e+04  1.000e+00     
+Conditional   2.492e+04  2.514e-01    5
+Constrained   8.677e+03  8.754e-02    4
+Unconstrained 6.553e+04  6.610e-01    4
+Inertia is variance 
+
+Eigenvalues for constrained axes:
+RDA1 RDA2 RDA3 RDA4 
+6555 1152  546  424 
+
+Eigenvalues for unconstrained axes:
+  PC1   PC2   PC3   PC4 
+32359 20774  8503  3890 
+
+
+Call:
+prc(response = data1[, 5:8], treatment = treatment, time = week,      correlation = T) 
+Species scores:
+  KLRG1    CD25    CCR8    Ki67 
+-53.663   4.186 -10.512 -70.754 
+
+Coefficients for treatment + week:treatment interaction
+which are contrasts to treatment 0 
+rows are treatment, columns are week
+         5         6         7         8      9       11
+1 -0.13748 -0.016902  0.130029 -0.003489 0.2242  0.06153
+2  0.04107 -0.006273 -0.142672  0.006585 0.1468 -0.08364
+3  0.02132  0.001776  0.183333  0.032214 0.3127  0.09211
+4 -0.21709 -0.407455 -0.001534 -0.340203 0.3192 -0.01453
+Permutation test for rda under reduced model
+Plots: ID, plot permutation: free
+Permutation: series
+Number of permutations: 99
+
+Model: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+           Df Variance      F Pr(>F)   
+RDA1        1     6555 977.23   0.01 **
+Residual 9768    65525                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+       Df          Variance           F             Pr(>F)    
+ Min.   :   1   Min.   : 6555   Min.   :977.2   Min.   :0.01  
+ 1st Qu.:2443   1st Qu.:21298   1st Qu.:977.2   1st Qu.:0.01  
+ Median :4884   Median :36040   Median :977.2   Median :0.01  
+ Mean   :4884   Mean   :36040   Mean   :977.2   Mean   :0.01  
+ 3rd Qu.:7326   3rd Qu.:50783   3rd Qu.:977.2   3rd Qu.:0.01  
+ Max.   :9768   Max.   :65525   Max.   :977.2   Max.   :0.01  
+                                NA's   :1       NA's   :1     
+[1] "Permutation 3"
+Call: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+
+                Inertia Proportion Rank
+Total         9.913e+04  1.000e+00     
+Conditional   2.492e+04  2.514e-01    5
+Constrained   8.677e+03  8.754e-02    4
+Unconstrained 6.553e+04  6.610e-01    4
+Inertia is variance 
+
+Eigenvalues for constrained axes:
+RDA1 RDA2 RDA3 RDA4 
+6555 1152  546  424 
+
+Eigenvalues for unconstrained axes:
+  PC1   PC2   PC3   PC4 
+32359 20774  8503  3890 
+
+
+Call:
+prc(response = data1[, 5:8], treatment = treatment, time = week,      correlation = T) 
+Species scores:
+  KLRG1    CD25    CCR8    Ki67 
+-53.663   4.186 -10.512 -70.754 
+
+Coefficients for treatment + week:treatment interaction
+which are contrasts to treatment 0 
+rows are treatment, columns are week
+         5         6         7         8      9       11
+1 -0.13748 -0.016902  0.130029 -0.003489 0.2242  0.06153
+2  0.04107 -0.006273 -0.142672  0.006585 0.1468 -0.08364
+3  0.02132  0.001776  0.183333  0.032214 0.3127  0.09211
+4 -0.21709 -0.407455 -0.001534 -0.340203 0.3192 -0.01453
+Permutation test for rda under reduced model
+Plots: ID, plot permutation: free
+Permutation: series
+Number of permutations: 99
+
+Model: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+           Df Variance      F Pr(>F)   
+RDA1        1     6555 977.23   0.01 **
+Residual 9768    65525                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+       Df          Variance           F             Pr(>F)    
+ Min.   :   1   Min.   : 6555   Min.   :977.2   Min.   :0.01  
+ 1st Qu.:2443   1st Qu.:21298   1st Qu.:977.2   1st Qu.:0.01  
+ Median :4884   Median :36040   Median :977.2   Median :0.01  
+ Mean   :4884   Mean   :36040   Mean   :977.2   Mean   :0.01  
+ 3rd Qu.:7326   3rd Qu.:50783   3rd Qu.:977.2   3rd Qu.:0.01  
+ Max.   :9768   Max.   :65525   Max.   :977.2   Max.   :0.01  
+                                NA's   :1       NA's   :1     
+[1] "Permutation 4"
+Call: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+
+                Inertia Proportion Rank
+Total         9.913e+04  1.000e+00     
+Conditional   2.492e+04  2.514e-01    5
+Constrained   8.677e+03  8.754e-02    4
+Unconstrained 6.553e+04  6.610e-01    4
+Inertia is variance 
+
+Eigenvalues for constrained axes:
+RDA1 RDA2 RDA3 RDA4 
+6555 1152  546  424 
+
+Eigenvalues for unconstrained axes:
+  PC1   PC2   PC3   PC4 
+32359 20774  8503  3890 
+
+
+Call:
+prc(response = data1[, 5:8], treatment = treatment, time = week,      correlation = T) 
+Species scores:
+  KLRG1    CD25    CCR8    Ki67 
+-53.663   4.186 -10.512 -70.754 
+
+Coefficients for treatment + week:treatment interaction
+which are contrasts to treatment 0 
+rows are treatment, columns are week
+         5         6         7         8      9       11
+1 -0.13748 -0.016902  0.130029 -0.003489 0.2242  0.06153
+2  0.04107 -0.006273 -0.142672  0.006585 0.1468 -0.08364
+3  0.02132  0.001776  0.183333  0.032214 0.3127  0.09211
+4 -0.21709 -0.407455 -0.001534 -0.340203 0.3192 -0.01453
+Permutation test for rda under reduced model
+Plots: ID, plot permutation: free
+Permutation: series
+Number of permutations: 99
+
+Model: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+           Df Variance      F Pr(>F)   
+RDA1        1     6555 977.23   0.01 **
+Residual 9768    65525                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+       Df          Variance           F             Pr(>F)    
+ Min.   :   1   Min.   : 6555   Min.   :977.2   Min.   :0.01  
+ 1st Qu.:2443   1st Qu.:21298   1st Qu.:977.2   1st Qu.:0.01  
+ Median :4884   Median :36040   Median :977.2   Median :0.01  
+ Mean   :4884   Mean   :36040   Mean   :977.2   Mean   :0.01  
+ 3rd Qu.:7326   3rd Qu.:50783   3rd Qu.:977.2   3rd Qu.:0.01  
+ Max.   :9768   Max.   :65525   Max.   :977.2   Max.   :0.01  
+                                NA's   :1       NA's   :1     
+[1] "Permutation 5"
+Call: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+
+                Inertia Proportion Rank
+Total         9.913e+04  1.000e+00     
+Conditional   2.492e+04  2.514e-01    5
+Constrained   8.677e+03  8.754e-02    4
+Unconstrained 6.553e+04  6.610e-01    4
+Inertia is variance 
+
+Eigenvalues for constrained axes:
+RDA1 RDA2 RDA3 RDA4 
+6555 1152  546  424 
+
+Eigenvalues for unconstrained axes:
+  PC1   PC2   PC3   PC4 
+32359 20774  8503  3890 
+
+
+Call:
+prc(response = data1[, 5:8], treatment = treatment, time = week,      correlation = T) 
+Species scores:
+  KLRG1    CD25    CCR8    Ki67 
+-53.663   4.186 -10.512 -70.754 
+
+Coefficients for treatment + week:treatment interaction
+which are contrasts to treatment 0 
+rows are treatment, columns are week
+         5         6         7         8      9       11
+1 -0.13748 -0.016902  0.130029 -0.003489 0.2242  0.06153
+2  0.04107 -0.006273 -0.142672  0.006585 0.1468 -0.08364
+3  0.02132  0.001776  0.183333  0.032214 0.3127  0.09211
+4 -0.21709 -0.407455 -0.001534 -0.340203 0.3192 -0.01453
+Permutation test for rda under reduced model
+Plots: ID, plot permutation: free
+Permutation: series
+Number of permutations: 99
+
+Model: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+           Df Variance      F Pr(>F)   
+RDA1        1     6555 977.23   0.01 **
+Residual 9768    65525                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+       Df          Variance           F             Pr(>F)    
+ Min.   :   1   Min.   : 6555   Min.   :977.2   Min.   :0.01  
+ 1st Qu.:2443   1st Qu.:21298   1st Qu.:977.2   1st Qu.:0.01  
+ Median :4884   Median :36040   Median :977.2   Median :0.01  
+ Mean   :4884   Mean   :36040   Mean   :977.2   Mean   :0.01  
+ 3rd Qu.:7326   3rd Qu.:50783   3rd Qu.:977.2   3rd Qu.:0.01  
+ Max.   :9768   Max.   :65525   Max.   :977.2   Max.   :0.01  
+                                NA's   :1       NA's   :1     
+[1] "Permutation 6"
+Call: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+
+                Inertia Proportion Rank
+Total         9.913e+04  1.000e+00     
+Conditional   2.492e+04  2.514e-01    5
+Constrained   8.677e+03  8.754e-02    4
+Unconstrained 6.553e+04  6.610e-01    4
+Inertia is variance 
+
+Eigenvalues for constrained axes:
+RDA1 RDA2 RDA3 RDA4 
+6555 1152  546  424 
+
+Eigenvalues for unconstrained axes:
+  PC1   PC2   PC3   PC4 
+32359 20774  8503  3890 
+
+
+Call:
+prc(response = data1[, 5:8], treatment = treatment, time = week,      correlation = T) 
+Species scores:
+  KLRG1    CD25    CCR8    Ki67 
+-53.663   4.186 -10.512 -70.754 
+
+Coefficients for treatment + week:treatment interaction
+which are contrasts to treatment 0 
+rows are treatment, columns are week
+         5         6         7         8      9       11
+1 -0.13748 -0.016902  0.130029 -0.003489 0.2242  0.06153
+2  0.04107 -0.006273 -0.142672  0.006585 0.1468 -0.08364
+3  0.02132  0.001776  0.183333  0.032214 0.3127  0.09211
+4 -0.21709 -0.407455 -0.001534 -0.340203 0.3192 -0.01453
+Permutation test for rda under reduced model
+Plots: ID, plot permutation: free
+Permutation: series
+Number of permutations: 99
+
+Model: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+           Df Variance      F Pr(>F)   
+RDA1        1     6555 977.23   0.01 **
+Residual 9768    65525                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+       Df          Variance           F             Pr(>F)    
+ Min.   :   1   Min.   : 6555   Min.   :977.2   Min.   :0.01  
+ 1st Qu.:2443   1st Qu.:21298   1st Qu.:977.2   1st Qu.:0.01  
+ Median :4884   Median :36040   Median :977.2   Median :0.01  
+ Mean   :4884   Mean   :36040   Mean   :977.2   Mean   :0.01  
+ 3rd Qu.:7326   3rd Qu.:50783   3rd Qu.:977.2   3rd Qu.:0.01  
+ Max.   :9768   Max.   :65525   Max.   :977.2   Max.   :0.01  
+                                NA's   :1       NA's   :1     
+[1] "Permutation 7"
+Call: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+
+                Inertia Proportion Rank
+Total         9.913e+04  1.000e+00     
+Conditional   2.492e+04  2.514e-01    5
+Constrained   8.677e+03  8.754e-02    4
+Unconstrained 6.553e+04  6.610e-01    4
+Inertia is variance 
+
+Eigenvalues for constrained axes:
+RDA1 RDA2 RDA3 RDA4 
+6555 1152  546  424 
+
+Eigenvalues for unconstrained axes:
+  PC1   PC2   PC3   PC4 
+32359 20774  8503  3890 
+
+
+Call:
+prc(response = data1[, 5:8], treatment = treatment, time = week,      correlation = T) 
+Species scores:
+  KLRG1    CD25    CCR8    Ki67 
+-53.663   4.186 -10.512 -70.754 
+
+Coefficients for treatment + week:treatment interaction
+which are contrasts to treatment 0 
+rows are treatment, columns are week
+         5         6         7         8      9       11
+1 -0.13748 -0.016902  0.130029 -0.003489 0.2242  0.06153
+2  0.04107 -0.006273 -0.142672  0.006585 0.1468 -0.08364
+3  0.02132  0.001776  0.183333  0.032214 0.3127  0.09211
+4 -0.21709 -0.407455 -0.001534 -0.340203 0.3192 -0.01453
+Permutation test for rda under reduced model
+Plots: ID, plot permutation: free
+Permutation: series
+Number of permutations: 99
+
+Model: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+           Df Variance      F Pr(>F)   
+RDA1        1     6555 977.23   0.01 **
+Residual 9768    65525                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+       Df          Variance           F             Pr(>F)    
+ Min.   :   1   Min.   : 6555   Min.   :977.2   Min.   :0.01  
+ 1st Qu.:2443   1st Qu.:21298   1st Qu.:977.2   1st Qu.:0.01  
+ Median :4884   Median :36040   Median :977.2   Median :0.01  
+ Mean   :4884   Mean   :36040   Mean   :977.2   Mean   :0.01  
+ 3rd Qu.:7326   3rd Qu.:50783   3rd Qu.:977.2   3rd Qu.:0.01  
+ Max.   :9768   Max.   :65525   Max.   :977.2   Max.   :0.01  
+                                NA's   :1       NA's   :1     
+[1] "Permutation 8"
+Call: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+
+                Inertia Proportion Rank
+Total         9.913e+04  1.000e+00     
+Conditional   2.492e+04  2.514e-01    5
+Constrained   8.677e+03  8.754e-02    4
+Unconstrained 6.553e+04  6.610e-01    4
+Inertia is variance 
+
+Eigenvalues for constrained axes:
+RDA1 RDA2 RDA3 RDA4 
+6555 1152  546  424 
+
+Eigenvalues for unconstrained axes:
+  PC1   PC2   PC3   PC4 
+32359 20774  8503  3890 
+
+
+Call:
+prc(response = data1[, 5:8], treatment = treatment, time = week,      correlation = T) 
+Species scores:
+  KLRG1    CD25    CCR8    Ki67 
+-53.663   4.186 -10.512 -70.754 
+
+Coefficients for treatment + week:treatment interaction
+which are contrasts to treatment 0 
+rows are treatment, columns are week
+         5         6         7         8      9       11
+1 -0.13748 -0.016902  0.130029 -0.003489 0.2242  0.06153
+2  0.04107 -0.006273 -0.142672  0.006585 0.1468 -0.08364
+3  0.02132  0.001776  0.183333  0.032214 0.3127  0.09211
+4 -0.21709 -0.407455 -0.001534 -0.340203 0.3192 -0.01453
+Permutation test for rda under reduced model
+Plots: ID, plot permutation: free
+Permutation: series
+Number of permutations: 99
+
+Model: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+           Df Variance      F Pr(>F)   
+RDA1        1     6555 977.23   0.01 **
+Residual 9768    65525                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+       Df          Variance           F             Pr(>F)    
+ Min.   :   1   Min.   : 6555   Min.   :977.2   Min.   :0.01  
+ 1st Qu.:2443   1st Qu.:21298   1st Qu.:977.2   1st Qu.:0.01  
+ Median :4884   Median :36040   Median :977.2   Median :0.01  
+ Mean   :4884   Mean   :36040   Mean   :977.2   Mean   :0.01  
+ 3rd Qu.:7326   3rd Qu.:50783   3rd Qu.:977.2   3rd Qu.:0.01  
+ Max.   :9768   Max.   :65525   Max.   :977.2   Max.   :0.01  
+                                NA's   :1       NA's   :1     
+[1] "Permutation 9"
+Call: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+
+                Inertia Proportion Rank
+Total         9.913e+04  1.000e+00     
+Conditional   2.492e+04  2.514e-01    5
+Constrained   8.677e+03  8.754e-02    4
+Unconstrained 6.553e+04  6.610e-01    4
+Inertia is variance 
+
+Eigenvalues for constrained axes:
+RDA1 RDA2 RDA3 RDA4 
+6555 1152  546  424 
+
+Eigenvalues for unconstrained axes:
+  PC1   PC2   PC3   PC4 
+32359 20774  8503  3890 
+
+
+Call:
+prc(response = data1[, 5:8], treatment = treatment, time = week,      correlation = T) 
+Species scores:
+  KLRG1    CD25    CCR8    Ki67 
+-53.663   4.186 -10.512 -70.754 
+
+Coefficients for treatment + week:treatment interaction
+which are contrasts to treatment 0 
+rows are treatment, columns are week
+         5         6         7         8      9       11
+1 -0.13748 -0.016902  0.130029 -0.003489 0.2242  0.06153
+2  0.04107 -0.006273 -0.142672  0.006585 0.1468 -0.08364
+3  0.02132  0.001776  0.183333  0.032214 0.3127  0.09211
+4 -0.21709 -0.407455 -0.001534 -0.340203 0.3192 -0.01453
+Permutation test for rda under reduced model
+Plots: ID, plot permutation: free
+Permutation: series
+Number of permutations: 99
+
+Model: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+           Df Variance      F Pr(>F)   
+RDA1        1     6555 977.23   0.01 **
+Residual 9768    65525                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+       Df          Variance           F             Pr(>F)    
+ Min.   :   1   Min.   : 6555   Min.   :977.2   Min.   :0.01  
+ 1st Qu.:2443   1st Qu.:21298   1st Qu.:977.2   1st Qu.:0.01  
+ Median :4884   Median :36040   Median :977.2   Median :0.01  
+ Mean   :4884   Mean   :36040   Mean   :977.2   Mean   :0.01  
+ 3rd Qu.:7326   3rd Qu.:50783   3rd Qu.:977.2   3rd Qu.:0.01  
+ Max.   :9768   Max.   :65525   Max.   :977.2   Max.   :0.01  
+                                NA's   :1       NA's   :1     
+[1] "Permutation 10"
+Call: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+
+                Inertia Proportion Rank
+Total         9.913e+04  1.000e+00     
+Conditional   2.492e+04  2.514e-01    5
+Constrained   8.677e+03  8.754e-02    4
+Unconstrained 6.553e+04  6.610e-01    4
+Inertia is variance 
+
+Eigenvalues for constrained axes:
+RDA1 RDA2 RDA3 RDA4 
+6555 1152  546  424 
+
+Eigenvalues for unconstrained axes:
+  PC1   PC2   PC3   PC4 
+32359 20774  8503  3890 
+
+
+Call:
+prc(response = data1[, 5:8], treatment = treatment, time = week,      correlation = T) 
+Species scores:
+  KLRG1    CD25    CCR8    Ki67 
+-53.663   4.186 -10.512 -70.754 
+
+Coefficients for treatment + week:treatment interaction
+which are contrasts to treatment 0 
+rows are treatment, columns are week
+         5         6         7         8      9       11
+1 -0.13748 -0.016902  0.130029 -0.003489 0.2242  0.06153
+2  0.04107 -0.006273 -0.142672  0.006585 0.1468 -0.08364
+3  0.02132  0.001776  0.183333  0.032214 0.3127  0.09211
+4 -0.21709 -0.407455 -0.001534 -0.340203 0.3192 -0.01453
+Permutation test for rda under reduced model
+Plots: ID, plot permutation: free
+Permutation: series
+Number of permutations: 99
+
+Model: prc(response = data1[, 5:8], treatment = treatment, time = week, correlation = T)
+           Df Variance      F Pr(>F)   
+RDA1        1     6555 977.23   0.01 **
+Residual 9768    65525                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+       Df          Variance           F             Pr(>F)    
+ Min.   :   1   Min.   : 6555   Min.   :977.2   Min.   :0.01  
+ 1st Qu.:2443   1st Qu.:21298   1st Qu.:977.2   1st Qu.:0.01  
+ Median :4884   Median :36040   Median :977.2   Median :0.01  
+ Mean   :4884   Mean   :36040   Mean   :977.2   Mean   :0.01  
+ 3rd Qu.:7326   3rd Qu.:50783   3rd Qu.:977.2   3rd Qu.:0.01  
+ Max.   :9768   Max.   :65525   Max.   :977.2   Max.   :0.01  
+                                NA's   :1       NA's   :1     
