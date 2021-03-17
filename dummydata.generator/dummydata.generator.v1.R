@@ -1,7 +1,8 @@
-## dummydata.generator.v2.R
 ## Script to generate equally sized datasets for each timepoint and treatment
 ## Quality control of new dataset by t-test of old vs. new datasets: there should be no significant difference between the two datasets
 ## Populations ("type") should be coded as follows ("type2"): 0 = T0rb, 1 = T2rb, 2 = T0ina, 3 = T2ina, 4 = T2cur
+## Script by Natalie Dallmann, Institute for environmental research, RWTH
+## Version 1 (24.02.2021)
 
 ##Setup: working directory, datafile
 #setwd(choose.dir())
