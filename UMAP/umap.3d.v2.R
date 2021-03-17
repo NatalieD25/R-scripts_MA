@@ -3,9 +3,10 @@
 ## on the umap axes 
 
 ## 1. Setup
+install.packages("rgl")
+install.packages("uwot")
 library("rgl")
 library("uwot")
-library("dbscan")
 r3dDefaults$windowRect <- c(20,30, 800, 800)
 #setwd(choose.dir())
 data <- read.table("Example data.csv", sep = " ", header = T)
