@@ -4,6 +4,8 @@
 ## - same amount of measurements in each week per treatment
 ## - ID-vector to imply "repeated measurement" for test of significance
 ## -> use Script "dummydata_generator" on rawdata
+## Script by Natalie Dallmann, Institute for environmental research, RWTH
+## Version 3
 
 ## Load required packages
 install.packages("vegan")
