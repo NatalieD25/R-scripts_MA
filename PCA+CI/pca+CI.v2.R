@@ -1,6 +1,9 @@
 ##Script to analyze data via PCA with 95% confidence interval ellipses
 
 ##1. Setup
+install.packages("FactoMineR")
+install.packages("shape")
+install.packages("vegan")
 library("FactoMineR")
 library("shape")
 library("vegan")
