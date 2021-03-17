@@ -1,8 +1,9 @@
-## umap.subdatasets.v1
-## R script to calculate and visualize 2D UMAPs with variable vectors (2.) and to perform a dbscan (3.) and manova (4.)
-## on the umap axes 
+## R script to calculate and visualize 2D UMAPs with variable vectors
+## Script by Natalie Dallmann, Institute for environmental research, RWTH
+## Version 1 (24.02.2021)
 
 ## 1. Setup
+install.packages("uwot")
 library("uwot")
 #setwd(choose.dir())
 data <- read.table("Example data.csv", sep = "", header = T)
