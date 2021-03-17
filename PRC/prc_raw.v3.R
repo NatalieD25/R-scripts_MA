@@ -1,6 +1,8 @@
 ## Script for a principal response curve without statistics
 ## Requirements for datafile:
 ## - populations (type) coded as follows: 0 = T0rb (reference), 1 = T2rb, 2 = T0ina, 3 = T2ina, 4 = T2cur
+## Script by Natalie Dallmann, Institute for environmental research, RWTH
+## Version 2 (24.02.2021)
 
 ## Load required packages
 library("vegan")
