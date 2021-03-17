@@ -1,5 +1,13 @@
 # R-scripts_MA
 
+All skripts were built under R for Windows 3.6.1 and can be run directly without any changes as long as the working directory is set to the folder containing the skript to be run. 
+
+## Dependencies
+* FactoMineR v.2.4
+* permute v.0.9-5
+* uwot v.0.1.10
+* vegan v.2.5-7
+
 ## PCA+CI 
 This folder contains the script for a principal component analysis on the exemplary timeseries data set in “rawdata.csv” where 95% confidence intervals are added around the centroids of each week and cell population applied on both a correlation (cor) and covariance (cov) matrix and the centroids of one treatment are connected from week to week resulting in a time trajectory. Exemplary result graphs are included in the png-files “2021-02-24.pca.cor.T2.png” and “2021-02-24.pca.cov.T2.png”.
 ## dummydata.generator
