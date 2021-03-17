@@ -16,9 +16,9 @@ data<-data[2:10]
 data1<-subset(data, ind != "dummy")
 
 ## prepare data for prc
-treatment<-as.factor(data$type2)
-week<-as.factor(data$week)
-ID<-as.factor(data$ID)
+treatment<-as.factor(data1$type2)
+week<-as.factor(data1$week)
+ID<-as.factor(data1$ID)
 l.ID<-length(ID)
 n.ID<-length(unique(ID))
 
