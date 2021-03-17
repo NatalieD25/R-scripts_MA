@@ -1,4 +1,6 @@
 ##Script to analyze data via PCA with 95% confidence interval ellipses
+##Script by Natalie Dallmann, Institute for environmental research, RWTH
+##Version 2
 
 ##1. Setup
 install.packages("FactoMineR")
