@@ -6,9 +6,10 @@
 ## -> use Script "dummydata_generator" on rawdata
 
 ## Load required packages
+install.packages("vegan")
+install.packages("permute")
 library("vegan")
 library("permute")
-library("TeachingDemos")
 
 ## set working directory
 #setwd(choose.dir())
