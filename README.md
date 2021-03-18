@@ -1,6 +1,6 @@
 # R-scripts_MA
 
-All skripts were built under R for Windows 3.6.1 and can be run directly without any changes as long as the working directory is set to the folder containing the skript to be run. 
+All skripts were built under R for Windows 4.0.4 and can be run directly without any changes. 
 
 ## Dependencies
 * FactoMineR v.2.4
