@@ -24,10 +24,8 @@ for (i in 1:nrow(data1)) {
   wk.type<-paste(data1[i,3], data1[i,1], sep = "_")
   env.data<-rbind(env.data, wk.type)
 }
-env.data<-as.data.frame(env.data[2:nrow(env.data)])
-rownames(env.data)<-rownames(data1)
-colnames(env.data)<-paste("wkty")
-data2<-cbind(data1[,1:7], env.data)
+wkty<-as.factor(env.data[2:nrow(env.data)])
+data2<-cbind(data1[,1:7], wkty)
 wk.ty<-as.vector(unique(data2$wkty))
 
 ##4.1 PCA based on covariance matrix
