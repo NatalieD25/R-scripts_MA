@@ -22,9 +22,7 @@ c.col<-c("green", "royalblue1", "red", "darkgreen", "royalblue4")
 ## Calculation of UMAP with:
 ## n_components = number of axes
 ## scale = T -> normalize data by z-transformation
-## y = supervision factor
-
-res.umap<-umap(data[,5:7], n_components = 2, scale = T, y = data$celltype)
+res.umap<-umap(data[,5:7], n_components = 2, scale = T)
   
 ## Save results
 res.umap<-as.data.frame(res.umap)
@@ -60,7 +58,7 @@ last3<-nrow(CD62L.spl)
 picname<-paste(Sys.Date(), "_Example UMAP.png", sep = "")
 png(picname)
 titel = paste("Example UMAP") ##adjust title  
-plot(res.umap[,9:10], pch=20, cex = 0.5, col = c.col[res.umap$celltype], xlab='AX1',ylab='AX2',zlab='AX3', main = titel)
+plot(res.umap[,9:10], pch=20, cex = 0.5, col = c.col[as.factor(res.umap$celltype)], xlab='AX1',ylab='AX2', main = titel)
 lines(Ki67.spl[,2:3], lwd = 2, col = "gray0")
 arrows(x0=Ki67.spl[last1-1,2], y0=Ki67.spl[last1-1,3], x1=Ki67.spl[last1,2], y1=Ki67.spl[last1,3], lwd = 2, col = "gray0")
 text(Ki67.spl[last1, 2:3], labels = "Ki67", offset = 5)
