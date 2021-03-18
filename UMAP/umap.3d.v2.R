@@ -8,7 +8,7 @@ install.packages("uwot")
 library("rgl")
 library("uwot")
 r3dDefaults$windowRect <- c(20,30, 800, 800)
-#setwd(choose.dir())
+#setwd(choose.dir()) 
 data <- read.table("Example data.csv", sep = " ", header = T)
 
 ##Variables
@@ -25,9 +25,8 @@ c.col<-c("green", "royalblue1", "red", "darkgreen", "royalblue4")
 ## Calculation of UMAP with:
 ## n_components = number of axes
 ## scale = T -> normalize data by z-transformation
-## y = supervision factor
 
-res.umap<-umap(data[,5:7], n_components = 3, scale = T, y = data$population)
+res.umap<-umap(data[,5:7], n_components = 3, scale = T)
   
 ## Save results
 res.umap<-as.data.frame(res.umap)
@@ -64,7 +63,7 @@ last3<-nrow(CD62L.spl)
   
 ## Plot results
 titel = paste("Example UMAP") ##adjust title
-plot3d(res.umap[,9:11], pch=20, cex = 2, col = c.col[res.umap$celltype], axes=FALSE,xlab='AX1',ylab='AX2',zlab='AX3', main = titel)
+plot3d(res.umap[,9:11], pch=20, cex = 2, col = c.col[as.factor(res.umap$celltype)], axes=FALSE,xlab='AX1',ylab='AX2',zlab='AX3', main = titel)
 axes3d(col='black',box=TRUE,tick=FALSE,axes=FALSE)
 lines3d(Ki67.spl[,2:4], lwd = 5, col = "gray0")
 arrow3d(p0=c(Ki67.spl[last1-1,2:4]), p1=c(Ki67.spl[last1, 2:4]), s=1, col = "gray0", type = "r", theta = pi/12)
