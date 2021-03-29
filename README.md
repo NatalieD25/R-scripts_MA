@@ -5,7 +5,9 @@ All skripts were built under R for Windows 4.0.4 and can be run directly without
 ## Dependencies
 * FactoMineR v.2.4
 * permute v.0.9-5
+* shape v.1.4.5
 * uwot v.0.1.10
+* rgl v.0.105.22
 * vegan v.2.5-7
 
 ## PCA+CI 
